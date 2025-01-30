@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseMovementTracking.Infra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseMovementTracking.WebUI", "MouseMovementTracking.WebUI\MouseMovementTracking.WebUI.csproj", "{BED31DA5-CFC6-434E-9E7A-E0A11EDA8BB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseMovementTracking.Tests", "MouseMovementTracking.Tests\MouseMovementTracking.Tests.csproj", "{C649AFCF-E754-4403-BC36-1D6799193A21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{BED31DA5-CFC6-434E-9E7A-E0A11EDA8BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BED31DA5-CFC6-434E-9E7A-E0A11EDA8BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BED31DA5-CFC6-434E-9E7A-E0A11EDA8BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C649AFCF-E754-4403-BC36-1D6799193A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C649AFCF-E754-4403-BC36-1D6799193A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C649AFCF-E754-4403-BC36-1D6799193A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C649AFCF-E754-4403-BC36-1D6799193A21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

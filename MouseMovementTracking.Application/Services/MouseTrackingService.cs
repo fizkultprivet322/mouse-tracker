@@ -14,6 +14,11 @@ public class MouseTrackingService : IMouseTrackingService
 
     public async Task SaveMouseTrackingDataAsync(string jsonData)
     {
+        if (string.IsNullOrEmpty(jsonData))
+        {
+            return;
+        }
+
         var data = new MouseTrackingData { Data = jsonData };
         await _repository.AddAsync(data);
     }
