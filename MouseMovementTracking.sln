@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseMovementTracking.Domain", "MouseMovementTracking.Domain\MouseMovementTracking.Domain.csproj", "{4E6DF40A-4EBC-4382-BD98-1C0930D8173D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseMovementTracking.Application", "MouseMovementTracking.Application\MouseMovementTracking.Application.csproj", "{F007FC74-1D8A-40DC-A864-E257DD597339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseMovementTracking.Infrastructure", "MouseMovementTracking.Infrastructure\MouseMovementTracking.Infrastructure.csproj", "{DB5CBF0F-5F20-4558-9542-B3B1B13A6856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseMovementTracking.WebUI", "MouseMovementTracking.WebUI\MouseMovementTracking.WebUI.csproj", "{BED31DA5-CFC6-434E-9E7A-E0A11EDA8BB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E6DF40A-4EBC-4382-BD98-1C0930D8173D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6DF40A-4EBC-4382-BD98-1C0930D8173D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6DF40A-4EBC-4382-BD98-1C0930D8173D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6DF40A-4EBC-4382-BD98-1C0930D8173D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F007FC74-1D8A-40DC-A864-E257DD597339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F007FC74-1D8A-40DC-A864-E257DD597339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F007FC74-1D8A-40DC-A864-E257DD597339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F007FC74-1D8A-40DC-A864-E257DD597339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB5CBF0F-5F20-4558-9542-B3B1B13A6856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5CBF0F-5F20-4558-9542-B3B1B13A6856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5CBF0F-5F20-4558-9542-B3B1B13A6856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5CBF0F-5F20-4558-9542-B3B1B13A6856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED31DA5-CFC6-434E-9E7A-E0A11EDA8BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED31DA5-CFC6-434E-9E7A-E0A11EDA8BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED31DA5-CFC6-434E-9E7A-E0A11EDA8BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED31DA5-CFC6-434E-9E7A-E0A11EDA8BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
